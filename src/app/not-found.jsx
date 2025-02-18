@@ -44,7 +44,7 @@ export default function Example() {
             </div>
             <img className="pb-10 justify-self-center" src="sage_horizontal_green_165.png" alt="Logo" />
 
-            <h2 className="text-4xl font-semibold tracking-tight text-pretty text-center text-white sm:text-5xl">We're upgrading!</h2>
+            <h2 className="text-4xl font-semibold tracking-tight text-pretty text-center text-white sm:text-5xl">We’re upgrading!</h2>
             <p className="mt-6 text-center text-lg/8 text-gray-300">
              Our website is currently getting a full remodel! 
              <br/>

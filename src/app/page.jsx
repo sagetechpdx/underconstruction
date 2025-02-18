@@ -1,12 +1,13 @@
-import { BuildingOffice2Icon, EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline'
+import { EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline'
+
 
 export default function Example() {
   return (
-    <div className="relative isolate bg-gray-900">
-      <div className="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
+    <div className="relative isolate h-full bg-gray-900">
+      <div className="mx-auto grid h-full max-w-7xl grid-cols-1">
         <div className="relative px-6 pt-24 pb-20 sm:pt-32 lg:static lg:px-8 lg:py-48">
-          <div className="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
-            <div className="absolute inset-y-0 left-0 -z-10 w-full overflow-hidden ring-1 ring-white/5 lg:w-1/2">
+          <div className="mx-auto max-w-xl ">
+            <div className="absolute inset-y-0 left-0 -z-10 w-full overflow-hidden ring-1 ring-white/5">
               <svg
                 aria-hidden="true"
                 className="absolute inset-0 size-full stroke-gray-700 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
@@ -41,12 +42,16 @@ export default function Example() {
                 />
               </div>
             </div>
-            <h2 className="text-4xl font-semibold tracking-tight text-pretty text-white sm:text-5xl">We're Upgrading</h2>
-            <p className="mt-6 text-lg/8 text-gray-300">
-We are still open, but our website is getting a full remodel! The new site will be online shortly. We apologize for any inconvenience.
+            <img className="pb-10 justify-self-center" src="sage_horizontal_green_165.png" alt="Logo" />
+
+            <h2 className="text-4xl font-semibold tracking-tight text-pretty text-center text-white sm:text-5xl">We're upgrading!</h2>
+            <p className="mt-6 text-center text-lg/8 text-gray-300">
+             Our website is currently getting a full remodel! 
+             <br/>
+             The new site will be online shortly.
             </p>
-            <dl className="mt-10 space-y-4 text-base/7 text-gray-300">
-              
+            <dl className="mt-10 place-items-center space-y-4 text-base/7 text-gray-300">
+
               <div className="flex gap-x-4">
                 <dt className="flex-none">
                   <span className="sr-only">Telephone</span>

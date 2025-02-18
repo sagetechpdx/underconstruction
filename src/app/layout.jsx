@@ -1,5 +1,4 @@
 import { RootLayout } from '@/components/RootLayout'
-import { TopBanner } from '@/components/TopBanner'
 import '@/styles/tailwind.css'
 
 export const metadata = {
